@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+.container h1 {
+    font-size: 24px;
+    color: #333;
+}
+.input-field {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.captcha-options {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+.captcha-option {
+    margin: 0 10px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #888;
+}
+.captcha-option.active {
+    color: #ff7e00;
+    border-bottom: 2px solid #ff7e00;
+    font-weight: bold;
+}
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff7e00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+.google-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    cursor: pointer;
+    margin: 15px 0;
+}
+.google-login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+.forgot-password {
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;
+    cursor: pointer;
+}
