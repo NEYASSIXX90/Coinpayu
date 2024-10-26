@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoinPayU - Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Login</h1>
+    <input type="email" class="input-field" placeholder="Email" required>
+    <input type="password" class="input-field" placeholder="Password" required>
+    <a class="forgot-password" href="#">Forgot Your Password?</a>
+
+    <div class="captcha-options">
+        <div class="captcha-option active" onclick="selectCaptcha(this)">CloudflareCaptcha</div>
+        <div class="captcha-option" onclick="selectCaptcha(this)">QbkCaptcha</div>
+    </div>
+
+    <button class="login-btn">Login</button>
+
+    <div class="google-login">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg" alt="Google Logo">
+        <span>Login with Google</span>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
